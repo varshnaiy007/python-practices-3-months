@@ -1,0 +1,11 @@
+# Take input as a string
+items = input()
+
+# Split the string into a list
+item_list = items.split()
+
+# Convert the list to a set to remove duplicates
+unique_items = set(item_list)
+
+# Print the length of the set (number of unique items)
+print(len(unique_items))
