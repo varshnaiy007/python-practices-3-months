@@ -1,0 +1,11 @@
+# Original tuple
+products = ("car", "bike", "truck", "boat")
+
+# Item to remove
+item_to_remove = "bike"
+
+# Convert to list, remove the item, convert back to tuple
+updated_products = tuple(x for x in products if x != item_to_remove)
+
+# Print result
+print(updated_products)
