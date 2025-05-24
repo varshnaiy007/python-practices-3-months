@@ -1,0 +1,8 @@
+# Take input from the user
+num = int(input())
+
+# Check if number is within 100 units of 1000 or 2000
+if abs(1000 - num) <= 100 or abs(2000 - num) <= 100:
+    print(True)
+else:
+    print(False)
