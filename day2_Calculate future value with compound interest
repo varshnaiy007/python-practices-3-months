@@ -1,0 +1,12 @@
+#Take the input for the user for the pricipal amount(amt)
+  amt = 1000
+#Take the input for the anual interest intersset rate (intr) in percentage form
+  intr = 3.5
+#Take the input for the number of years the amount will be invested or loaned
+  years = 7
+#Apply the compound interest value
+  future-value=qmt*(1+0.01*intr)**years
+#print the result
+  print(future_value)
+
+  Output = 12722.792627
