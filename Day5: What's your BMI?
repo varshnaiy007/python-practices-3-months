@@ -1,0 +1,10 @@
+# Write your code here
+
+height = 6
+weight = 65
+
+# Calculate BMI using the formula
+bmi = weight / (height ** 2)
+
+# Print the calculated BMI
+print(bmi)
